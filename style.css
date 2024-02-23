@@ -1,0 +1,48 @@
+body{
+    background-image: url(./home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-right: 25px; ;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 20px;
+}
+a{  color: white;
+    margin: 20px;
+
+}
+ul{
+    font-size: large;
+
+}
+
+.logo{
+    height: 35px;
+}
+
+.main{
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.name{
+    margin-bottom:75px ;
+}
+.bio{
+    margin: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
